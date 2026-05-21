@@ -66,4 +66,19 @@ Este é um projeto simples em linha de comando desenvolvido em Python para simul
 
   ---
 
+### 6. Simulador de Placar de Futebol ('Placar_Futebol_Python.ipynb')
+Um programa simples em linha de comando desenvolvido para gerenciar e atualizar o placar de uma partida de futebol em tempo real.
+
+**O que o projeto faz:**
+- **Customização Inicial:** Permite ao usuário digitar os nomes dos dois times que vão se enfrentar antes do início do jogo.
+- **Controle de Gols:** Soma e exibe na tela o placar atualizado dinamicamente toda vez que um gol é registrado para o Time 1 ou Time 2.
+- **Validação de Menu:** Trata de forma inteligente as opções digitadas, exibindo um alerta de erro caso o usuário informe um número inválido, sem interromper o andamento do jogo.
+- **Encerramento:** Finaliza a partida de forma limpa apenas quando a opção correta é acionada, exibindo o placar final consolidado dos times.
+
+**Conceitos Praticados:**
+- Entrada de dados dinâmica (`input()`) com strings personalizadas
+- Laço de repetição contínuo (`while True`) e controle de parada (`break`)
+- Estruturas de condição encadeadas (`if`, `elif`, `else`)
+- Manipulação e incremento de variáveis matemáticas (`+= 1`)
+- Tratamento de exceções com blocos `try / except ValueError`
 
