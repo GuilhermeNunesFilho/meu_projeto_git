@@ -4,7 +4,7 @@
 
 ---
 
-### 🔑 1. Sistema de Validação de Senha (`Validacao_senha_while.ipynb`)
+  ### 🔑 1. Sistema de Validação de Senha (`Validacao_senha_while.ipynb`)
 - Este script simula um sistema básico de segurança para validação de acesso com limite de erros.
 
 - Laço de Repetição (`while`): Mantém o programa rodando até a condição de parada.
@@ -13,17 +13,17 @@
 
 ---
 
-### 🧮 2. Calculadora Interativa (`Calculadora_Python_While.ipynb`)
+  ### 🧮 2. Calculadora Interativa (`Calculadora_Python_While.ipynb`)
 - Uma calculadora completa que roda em loop e possui validação de dados para impedir que o usuário digite opções inválidas no menu.
 
 ---
 
-### 🗄️ 3. Integração com Banco de Dados (`Sqlite_teste.ipynb`)
+  ### 🗄️ 3. Integração com Banco de Dados (`Sqlite_teste.ipynb`)
 - Projeto focado na manipulação de dados utilizando Python integrado ao banco de dados SQLite.
 
 ---
 
-### 4. Diário de Estudos em Python ('Diário_Estudo_Python.ipynb')
+  ### 4. Diário de Estudos em Python ('Diário_Estudo_Python.ipynb')
 - Este é um projeto simples em linha de comando desenvolvido em Python para consolidar meus aprendizados iniciais na linguagem.
 
 ---
@@ -44,7 +44,7 @@
 
   ---
 
-  ### 5. Cofrinho Digital em Python ('Cofre_Digital_Python.ipynb')
+    ### 5. Cofrinho Digital em Python ('Cofre_Digital_Python.ipynb')
 Este é um projeto simples em linha de comando desenvolvido em Python para simular o controle financeiro de uma conta ou cofrinho pessoal.
 
 ---
@@ -66,7 +66,7 @@ Este é um projeto simples em linha de comando desenvolvido em Python para simul
 
   ---
 
-### 6. Simulador de Placar de Futebol ('Placar_Futebol_Python.ipynb')
+    ### 6. Simulador de Placar de Futebol ('Placar_Futebol_Python.ipynb')
 Um programa simples em linha de comando desenvolvido para gerenciar e atualizar o placar de uma partida de futebol em tempo real.
 
 **O que o projeto faz:**
@@ -82,3 +82,18 @@ Um programa simples em linha de comando desenvolvido para gerenciar e atualizar 
 - Manipulação e incremento de variáveis matemáticas (`+= 1`)
 - Tratamento de exceções com blocos `try / except ValueError`
 
+    ---
+
+    ### 7 💰 Sistema de Controle de Gastos Mensais
+
+Este é um aplicativo utilitário em Python desenvolvido para ajudar usuários a gerenciarem suas finanças pessoais de forma simples e direta via console.
+
+## 🚀 Funcionalidades
+- **Cadastro de Despesas:** Permite inserir o nome e o valor de cada gasto.
+- **Validação de Dados:** Evita a inserção de valores negativos, nulos ou campos em branco.
+- **Cálculo Automático:** Exibe o total acumulado das despesas em tempo real.
+- **Histórico Fluido:** Lista todos os gastos cadastrados de forma organizada.
+
+## 🛠️ Tecnologias Utilizadas
+- Python 3
+- Estruturas de repetição (`while`), condicionais (`if/elif/else`) e funções (`def`).
