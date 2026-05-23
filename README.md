@@ -97,3 +97,20 @@ Este é um aplicativo utilitário em Python desenvolvido para ajudar usuários a
 ## 🛠️ Tecnologias Utilizadas
 - Python 3
 - Estruturas de repetição (`while`), condicionais (`if/elif/else`) e funções (`def`).
+
+- ### 7. Sistema de Cadastro de Vagas de Estágio ('Cadastro_Vagas_Python.ipynb')
+Este é um projeto prático em linha de comando desenvolvido em Python para gerenciar a publicação de vagas de estágio e automatizar análises financeiras simples.
+
+**O que o projeto faz:**
+- **Cadastro Dinâmico:** Permite registrar o nome da vaga e armazena o valor da bolsa-auxílio convertendo a entrada diretamente para formato numérico.
+- **Relatório Consolidado:** Lista todas as oportunidades de forma numerada (iniciando do 1) e exibe os salários padronizados com duas casas decimais.
+- **Cálculo de Média Salarial:** Analisa as informações cadastradas nas listas e exibe dinamicamente a média matemática de todas as bolsas oferecidas.
+- **Proteção do Sistema:** Evita que o programa trave caso o usuário tente extrair relatórios com a lista de vagas vazia ou digite textos no lugar de números.
+
+**Conceitos Praticados:**
+- Entrada e coerção de dados com tipos primitivos (`input()`, `int()`, `float()`)
+- Manipulação e sincronização de coleções dinâmicas através de listas paralelas (`.append()`)
+- Estruturas de iteração baseadas em tamanho de objetos (`for i in range(len())`)
+- Tratamento e desvio de fluxo para segurança de execução (`try / except ValueError`)
+- Otimização com funções matemáticas integradas (`sum()` e `len()`)
+
