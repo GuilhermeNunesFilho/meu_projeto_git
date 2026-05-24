@@ -114,3 +114,21 @@ Este é um projeto prático em linha de comando desenvolvido em Python para gere
 - Tratamento e desvio de fluxo para segurança de execução (`try / except ValueError`)
 - Otimização com funções matemáticas integradas (`sum()` e `len()`)
 
+---
+
+# 📓 Projeto: Diário Secreto do Programador
+
+Este caderno contém um programa desenvolvido em Python que simula um diário pessoal via console, focado no aprendizado de **persistência de dados (I/O de arquivos)**.
+
+## 🛠️ Conceitos Praticados:
+* **Manipulação de Arquivos:** Uso do comando `with open()` para ler, gravar e resetar dados em arquivos de texto (`.txt`).
+* **Modos de Abertura:** Diferenciação prática entre os modos `"a"` (append), `"r"` (read) e `"w"` (write).
+* **Estrutura de Controle:** Laço de repetição `while True` para o menu contínuo e tratamento de desvios condicionais com `if/elif/else`.
+* **Tratamento de Exceções:** Uso de `try/except` para evitar que o programa quebre caso o usuário digite uma opção inválida.
+
+## 🚀 Como testar:
+1. Execute a célula de código abaixo.
+2. Escolha a **Opção 1** para gravar um novo pensamento.
+3. Escolha a **Opção 2** para ler o arquivo salvo na memória do servidor.
+4. Use a **Opção 4** para limpar o histórico e resetar o arquivo.
+
